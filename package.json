@@ -1,8 +1,8 @@
 {
     "title": "Grayscale",
-    "name": "startbootstrap-grayscale",
+    "name": "grayscale",
     "version": "4.0.0",
-    "description": "A grayscale one page HTML theme for Bootstrap.",
+    "description": "",
     "keywords": [
         "css",
         "sass",
@@ -12,12 +12,16 @@
         "template"
     ],
     "license": "MIT",
-    "author": "Start Bootstrap",
+    "author": "",
     "dependencies": {
+        "body-parser": "^1.18.2",
         "bootstrap": "4.0.0",
+        "dotenv": "^5.0.1",
+        "express": "^4.16.3",
         "font-awesome": "4.7.0",
         "jquery": "3.3.1",
-        "jquery.easing": "^1.4.1"
+        "jquery.easing": "^1.4.1",
+        "morgan": "^1.9.0"
     },
     "devDependencies": {
         "browser-sync": "2.23.6",
