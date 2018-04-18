@@ -51,6 +51,10 @@ a:focus, a:hover {
   color: #1d9b6c;
 }
 
+li.list-inline-item {
+  margin-right: .5rem;
+}
+
 .brand-heading {
   color: #42DCA3;
 }
@@ -190,12 +194,12 @@ a:focus, a:hover {
 
 .download-section {
   color: white;
-  background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
+  background: linear-gradient(to top, #42dca3, black, transparent), url(../img/bwcity.jpg);
   background-color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
 }
 
 #map {
